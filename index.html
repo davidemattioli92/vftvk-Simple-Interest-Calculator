@@ -9,11 +9,27 @@
         Amount <input type="number"  id="principal">  <br/>
         Rate <input type="number"  id="rate">  <br/>
         No. of Years <input type="number"  id="years">  <br/>
-      
+        
+        If you deposit: : <span id="result"></span>
+        
         <button onclick="compute()">Compute Interest</button> <br/>
+        
+        <script>
+          function pr() {
+            document.getElementById("result").innerHTML = document.getElementById('principal').value + "at an interest rate of: " + document.getElementById('rate').value + "You will receive an amount of: " + document.getElementById('lname').value;
+          }
+        </script>
+        
+        <p>if you deposit: 
+        <p>
         <p>The Result is : <br>
         <span id = "result"></span>
         </p>
         
+        
+        
+    <footer>
+      &copy; Everyone Can Get Rich
+    </footer> 
     </body>
 </html>
