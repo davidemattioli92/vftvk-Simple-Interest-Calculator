@@ -1,8 +1,8 @@
 function compute()
 {
-    let p = document.getElementById("principal").value;
-    let r = document.getElementById("rate").value;
-    let n = document.getElementById("years").value;
-    return result = p*r_adj*n/100;
+    p = document.getElementById("principal").value;
+    r = document.getElementById("rate").value;
+    n = document.getElementById("years").value;
+    document.getElementById("result").innerHTML = p * r * n / 100;
 }
         
