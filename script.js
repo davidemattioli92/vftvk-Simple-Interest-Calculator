@@ -22,9 +22,7 @@ function SliderValue()
 {
     var slider = document.getElementById("rate");
     var output = document.getElementById("rate_display");
-    output.innerHTML = slider.value; // Display the default slider value
-
-    // Update the current slider value (each time you drag the slider handle)
+    output.innerHTML = slider.value;
     slider.oninput = function() 
     {
         output.innerHTML = this.value;
