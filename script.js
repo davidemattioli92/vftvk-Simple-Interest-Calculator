@@ -1,8 +1,9 @@
 function compute()
 {
-    p = document.getElementById("principal").value;
-    r = document.getElementById("rate").value;
-    n = document.getElementById("years").value;
-    document.getElementById("result").innerHTML = p * r * n / 100;
+    let p = document.getElementById("principal").value;
+    let r = document.getElementById("rate").value;
+    let n = document.getElementById("years").value;
+    let calc =  p * r * n / 100;
+    document.getElementById('calc').innerHTML="If you deposit: " + p + "at an interest rate of: " + r + "You will receive an amount of: " + n + "in the year";
 }
         
