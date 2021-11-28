@@ -9,14 +9,11 @@
         Amount <input type="number"  id="principal">  <br/>
         Rate <input type="number"  id="rate">  <br/>
         No. of Years <input type="number"  id="years">  <br/>
-       
-        
-        function calculation() {
-        var principal = document.getElementById("principal").value;
-        var rate = document.getElementById("rate").value;
-        text = "if you deposit: " + principal, <br/> + "at an interest rate of: " + rate <br/> + "You will receive an amount of: " <br/> + "in the year"
-    }
-        <button onclick="calculation()">Compute Interest</button> <br/>
+      
+        <button onclick="compute()">Compute Interest</button> <br/>
+        <p>The Result is : <br>
+        <span id = "result"></span>
+        </p>
         
     </body>
 </html>
